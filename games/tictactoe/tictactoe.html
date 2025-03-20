@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LT Games</title>
+    <link href="../../resources/css/styles.css" rel="stylesheet">
+
+    <script src="./tictactoe.js" defer></script>
+    <style>
+        html {
+            height: calc(100% - 50px);
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        #gameBoard {
+            display: grid;
+            grid-template-columns: repeat(3, calc(100% / 3));
+            background-color: gray;
+            height: 500px;
+            width: 500px;
+            border-radius: 30px;
+        }
+
+        #top,
+        #mid {
+            border-bottom: 3px solid orange;
+        }
+    </style>
+</head>
+
+<header>
+    <nav>
+        <a id="B" class="nav" href="../../index.html">
+            Games
+        </a>
+        <a id="A" class="nav" href="../../projects.html">
+            Projects
+        </a>
+        <a id="B" class="nav" href="../../tools.html">
+            Tools
+        </a>
+        <a id="C" class="nav" href="../../animations.html">
+            Animations
+        </a>
+    </nav>
+</header>
+
+<body>
+    <div id="gameBoard">
+
+    </div>
+</body>
+
+</html>
+
+<!-- <div id="TL"></div>
+        <div id="TM"></div>
+        <div id="TR"></div>
+
+        <div id="ML"></div>
+        <div id="MM"></div>
+        <div id="MR"></div>
+
+        <div id="BL"></div>
+        <div id="BM"></div>
+        <div id="BR"></div> -->
